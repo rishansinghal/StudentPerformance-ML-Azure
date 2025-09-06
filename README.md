@@ -1,1 +1,1 @@
-# StudentPerformance-ML-Azure
+# End to End Student Performance Machine Learning Project with Azure deployment.
