@@ -1,0 +1,12 @@
+[2025-06-08 20:15:46,459] {src/components/data_ingestion.py:28} INFO - Entered the data ingestion method/component
+[2025-06-08 20:15:46,465] {src/components/data_ingestion.py:32} INFO - Read the dataset as dataframe
+[2025-06-08 20:15:46,476] {src/components/data_ingestion.py:37} INFO - Saved raw data to artifacts
+[2025-06-08 20:15:46,480] {src/components/data_ingestion.py:40} INFO - Train-test split completed
+[2025-06-08 20:15:46,486] {src/components/data_ingestion.py:45} INFO - Ingestion of data is completed
+[2025-06-08 20:15:46,535] {C:\Users\garvs\OneDrive\Desktop\mlprojects\src\components\data_transformation.py:74} INFO - Read train and test data completed.
+[2025-06-08 20:15:46,536] {C:\Users\garvs\OneDrive\Desktop\mlprojects\src\components\data_transformation.py:52} INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-06-08 20:15:46,536] {C:\Users\garvs\OneDrive\Desktop\mlprojects\src\components\data_transformation.py:53} INFO - Numerical columns: ['writing_score', 'reading_score']
+[2025-06-08 20:15:46,540] {C:\Users\garvs\OneDrive\Desktop\mlprojects\src\components\data_transformation.py:85} INFO - Applying preprocessing object on training and testing datasets.
+[2025-06-08 20:15:46,580] {C:\Users\garvs\OneDrive\Desktop\mlprojects\src\components\data_transformation.py:92} INFO - Saving preprocessing object.
+[2025-06-08 20:15:46,592] {C:\Users\garvs\OneDrive\Desktop\mlprojects\src\components\model_trainer.py:33} INFO - Splitting training and test input data
+[2025-06-08 20:15:46,593] {C:\Users\garvs\OneDrive\Desktop\mlprojects\src\components\model_trainer.py:115} ERROR - Model saving failed with error: Error occurred in python script [C:\Users\garvs\OneDrive\Desktop\mlprojects\src\utils.py] line number [31] error message ['RandomForestRegressor' object has no attribute 'keys']
